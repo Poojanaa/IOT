@@ -24,7 +24,12 @@ https://wokwi.com/projects/334434209121698387<br>
 https://wokwi.com/projects/334434683419886163<br>
 **11.ULTRASONIC SENSOR LED**<br>
 https://wokwi.com/projects/334435063403905619<br>
-
+**12.SERVO MOTOR**<br>
+https://wokwi.com/projects/334975755701191250<br>
+**13.POTENTIOMETER**<BR>
+https://wokwi.com/projects/334976640674169428<br>
+**14.BUTTON SERVO MOTOR**<br>
+https://wokwi.com/projects/334977594216677971
 
   
 
