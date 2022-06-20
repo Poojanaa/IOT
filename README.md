@@ -8,8 +8,6 @@ https://wokwi.com/projects/333806812650275412<br>
 **4.Working mechanisum of sensors.**<br>
 1. TEMPERATURE AND HUMIDITY SENSOR(DHT 11 OR 22)<br>
   https://wokwi.com/projects/334344603757970004<br>
-2.MOISTURE SENSOR<br>
-https://wokwi.com/projects/334348142333919826<br>
 **5.LED FADE**<br>
 https://wokwi.com/projects/334432276838351443<br>
 **6.LED BUTTON**<br>
@@ -29,7 +27,9 @@ https://wokwi.com/projects/334975755701191250<br>
 **13.POTENTIOMETER**<BR>
 https://wokwi.com/projects/334976640674169428<br>
 **14.BUTTON SERVO MOTOR**<br>
-https://wokwi.com/projects/334977594216677971
+https://wokwi.com/projects/334977594216677971<br>
+**15.ULTRASONIC SENSOR SERVO**<br>
+https://wokwi.com/projects/334979742549672530<br>
 
   
 
