@@ -33,6 +33,8 @@ https://wokwi.com/projects/334979742549672530<br>
 **16.BUZZER BEEP**<br>
 https://wokwi.com/projects/335609032411710035<br>
 **17.BUZZER BEEP USING PUSHBUTTON**<br>
+https://wokwi.com/projects/335610024201028179<br>
+**18.**
   
   
 
