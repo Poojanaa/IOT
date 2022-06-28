@@ -38,6 +38,8 @@ https://wokwi.com/projects/335610024201028179<br>
 https://wokwi.com/projects/335610780015657556<br>
 **19.BUZZER BEEP USING ULTRASONIC SENSOR AND LED**<br>
 https://wokwi.com/projects/335610780015657556<br>
+**20.ULTRASONIC SENSOR**<br>
+https://wokwi.com/projects/335699322789167698<br>
  
   
   
