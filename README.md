@@ -42,6 +42,8 @@ https://wokwi.com/projects/335610780015657556<br>
 https://wokwi.com/projects/335699322789167698<br>
 **21.POTENTIOMETER**<br>
 https://wokwi.com/projects/335700904365785682<br>
+**22.POTENIOMETER FADE LED**<br>
+https://wokwi.com/projects/335703475977454163<br>
  
   
   
