@@ -44,6 +44,8 @@ https://wokwi.com/projects/335699322789167698<br>
 https://wokwi.com/projects/335700904365785682<br>
 **22.POTENIOMETER FADE LED**<br>
 https://wokwi.com/projects/335703475977454163<br>
+**23.LED IN ESP32**<BR>
+https://wokwi.com/projects/336968090979926612<br>
  
   
   
