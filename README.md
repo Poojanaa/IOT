@@ -52,7 +52,7 @@ https://wokwi.com/projects/337602112497123922<br>
 https://wokwi.com/projects/334431214876230226<br>
 **26.DHT 22 sensor<br>**
 https://wokwi.com/projects/337603663792964179<br>
-**27. relay with arduino ie Servo motor with BUTTON<br>
+**27. relay with arduino ie Servo motor with BUTTON**<br>
 https://wokwi.com/projects/337603967810798163<br>
 **28. LCD DHT 22**<br>
 https://wokwi.com/projects/337605922532622930<br>
