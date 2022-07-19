@@ -44,8 +44,23 @@ https://wokwi.com/projects/335699322789167698<br>
 https://wokwi.com/projects/335700904365785682<br>
 **22.POTENIOMETER FADE LED**<br>
 https://wokwi.com/projects/335703475977454163<br>
-**23.LED IN ESP32**<BR>
+**23.LED IN ESP32**<br>
 https://wokwi.com/projects/336968090979926612<br>
+**24.LED WITH BUZZER**<br>
+https://wokwi.com/projects/337602112497123922<br>
+**25. LED with PUSH BUTTON**<br>
+https://wokwi.com/projects/334431214876230226<br>
+**26.DHT 22 sensor<br>**
+https://wokwi.com/projects/337603663792964179<br>
+**27. relay with arduino ie Servo motor with BUTTON<br>
+https://wokwi.com/projects/337603967810798163<br>
+**28. LCD DHT 22**<br>
+https://wokwi.com/projects/337605922532622930<br>
+
+
+
+
+
  
   
   
