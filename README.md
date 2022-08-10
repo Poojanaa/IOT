@@ -56,6 +56,129 @@ https://wokwi.com/projects/337603663792964179<br>
 https://wokwi.com/projects/337603967810798163<br>
 **28. LCD DHT 22**<br>
 https://wokwi.com/projects/337605922532622930<br>
+**29.RGB**<br>
+int red = D1;<br>
+ int green = D6;<br>
+ int blue = D7;<br>
+ //GROUND IS CONNECTED TO 3V <br>
+ void setup() {<br>
+   pinMode(red, OUTPUT);<br>
+   pinMode(green, OUTPUT);<br>
+   pinMode(blue, OUTPUT);<br>
+
+ }<br>
+
+ void loop() {<br>
+   displayColor(0b100); //RED<br>
+   delay(1000);<br>
+   displayColor(0b010); //GREEN<br>
+   delay(1000);<br>
+   displayColor(0b001); //BLUE<br>
+   delay(1000);<br>
+   displayColor(0b101); //MAGENTA<br>
+   delay(1000);<br>
+   displayColor(0b011); //CYAN<br>
+   delay(1000);<br>
+   displayColor(0b110); //YELLOW<br>
+   delay(1000);<br>
+   displayColor(0b111); //WHITE<br>
+   delay(1000);<br>
+ }<br>
+
+ void displayColor(byte color) {<br>
+   digitalWrite(red, !bitRead(color, 2));<br>
+   digitalWrite(green, !bitRead(color, 1));<br>
+   digitalWrite(blue, !bitRead(color, 0));<br>
+ }<br>
+<br>
+<br>
+**30.IR LED**<br>
+int ir=D7;<br>
+ int led=D5;<br>
+ void setup() {<br>
+   // put your setup code here, to run once:<br>
+   pinMode(ir,INPUT);<br>
+     pinMode(led,OUTPUT);<br>
+     Serial.begin(9600);<br>
+
+ }<br>
+
+ void loop() {<br>
+   // put your main code here, to run repeatedly:<br>
+   int irvalue=digitalRead(ir);<br>
+   if(irvalue==LOW)<br>
+   {<br>
+     Serial.println("LOW");<br>
+     digitalWrite(led,HIGH);<br>
+   }<br>
+   else<br>
+   {<br>
+     Serial.println("HIGH");<br>
+     digitalWrite(led,LOW);<br>
+   }<br>
+ delay(100);<br>
+ }<br>
+     LDR<br>
+     const int ldrPin=A0;<br>
+     void setup() {<br>
+       Serial.begin(9600);<br>
+       pinMode(ldrPin,INPUT);<br>
+     }<br>
+     void loop() {<br>
+       int rawData = analogRead(ldrPin);   <br>
+       Serial.println(rawData);<br>
+       delay(1000);<br>
+     }<br>
+     <br>
+     <br>
+**31.LDR LED**<br>
+int ldr=A0;//Set A0(Analog Input) for LDR.<br>
+ int value=0;<br>
+ int led=D1;<br>
+ void setup() {<br>
+ Serial.begin(9600);<br>
+ pinMode(led,OUTPUT);<br>
+ }<br>
+
+ void loop() {<br>
+ value=analogRead(ldr);//Reads the Value of LDR(light).<br>
+ Serial.println("LDR value is :");//Prints the value of LDR to Serial Monitor.<br>
+ Serial.println(value);<br>
+ if(value<50)<br>
+   {<br>
+     digitalWrite(led,HIGH);//Makes the LED glow in Dark.<br>
+   }<br>
+   else<br>
+   {<br>
+     digitalWrite(led,LOW);//Turns the LED OFF in Light.<br>
+   }<br>
+   delay(1000);<br>
+ }\<br>
+<br>
+<br>
+**32.LED CHASER**<br>
+ int pinsCount=6;                        // declaring the integer variable pinsCount<br>
+int pins[] = {D0,D1,D7,D5,D3,D2};          // declaring the array pins[]<br>
+void setup() { <br>
+  for (int i=0; i<pinsCount; i=i+1){    // counting the variable i from 0 to 9<br>
+    pinMode(pins[i], OUTPUT);            // initialising the pin at index i of the array of pins as OUTPUT<br>
+  }<br>
+}<br>
+
+void loop() {<br>
+  for (int i=0; i<pinsCount; i=i+1){    // chasing right<br>
+    digitalWrite(pins[i], HIGH);         // switching the LED at index i on<br>
+    delay(100);                          // stopping the program for 100 milliseconds<br>
+    digitalWrite(pins[i], LOW);          // switching the LED at index i off<br>
+  }<br>
+  for (int i=pinsCount-1; i>0; i=i-1){   // chasing left (except the outer leds)<br>
+   digitalWrite(pins[i], HIGH);         // switching the LED at index i on<br>
+    delay(100);                          // stopping the program for 100 milliseconds<br>
+    digitalWrite(pins[i], LOW);          // switching the LED at index i off<br>
+}<br>
+}<br>
+<br>
+<br>
 
 
 
