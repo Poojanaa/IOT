@@ -180,6 +180,8 @@ void loop() {<br>
 <br>
 <br>
 **33.LIQUID CRYSTAL**<br>
+https://wokwi.com/projects/340779306417390164<br>
+
 
 
 
