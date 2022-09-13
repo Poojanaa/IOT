@@ -181,6 +181,13 @@ void loop() {<br>
 <br>
 **33.LIQUID CRYSTAL**<br>
 https://wokwi.com/projects/340779306417390164<br>
+**34.Seven segment LED display**<br>
+https://wokwi.com/projects/libraries/SevSeg/SevSeg_Counter<br>
+**35.Analog Joystick with two axes (horizontal/vertical) and an integrated push button.**<br>
+https://wokwi.com/projects/296234816685212169<br>
+**36.DHT22 on the ESP32 **<br>
+https://wokwi.com/projects/322410731508073042<br>
+**37.Display distance on LCD screen with buzzer and LED Reference 1:- **<br>
 
 
 
